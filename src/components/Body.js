@@ -4,9 +4,9 @@ import SideContainer from './SideContainer';
 
 const Body= () => {
   return (
-    <div>
-      <MainContainer/>
-    
+    <div className='grid grid-flow-col'>
+    <SideContainer/>
+    <MainContainer/>
     </div>
   )
 }

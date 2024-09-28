@@ -18,7 +18,7 @@ function Header() {
           className="border border-color-black-600 w-1/2 p-5 rounded-l-full"
           placeholder="Search anything here"
         />
-        <button className="border border-color-black-600 p-5 rounded-r-full">
+        <button className="border bg- p-5 rounded-r-full">
           🔍
         </button>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function SideContainer() {
   return (
-    <div className='col-span-1 shadow-lg'>
+    <div className='col-span-1 shadow-lg p-3'>
         <h1>Home</h1>
      <ul>
         <li>Home</li>
@@ -27,4 +27,4 @@ function SideContainer() {
   )
 }
 
-export default SideContainer
+export default SideContainer;
