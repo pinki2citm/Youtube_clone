@@ -1,22 +1,14 @@
-import './App.css';
 
 function App() {
+//  async function api(){
+//   const data= await fetch('https://m.youtube.com/youtubei/v1/browse?prettyPrint=false');
+//   const products = await data.json();
+// console.log(products);
+// }
+//api();
   return (
     <div className="App">
-      <header className="App-header">
-        <img className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1 className="text-3xl">Heelo Pk </h1>
     </div>
   );
 }
