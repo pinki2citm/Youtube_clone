@@ -1,4 +1,6 @@
-
+import Body from './components/Bodyody';
+import Header from './components/Header';
+import MainContainer from './components/MainContainer';
 function App() {
 //  async function api(){
 //   const data= await fetch('https://m.youtube.com/youtubei/v1/browse?prettyPrint=false');
@@ -8,7 +10,8 @@ function App() {
 //api();
   return (
     <div className="App">
-     <h1 className="text-3xl">Heelo Pk </h1>
+    <Header/>
+    <Body/>
     </div>
   );
 }
